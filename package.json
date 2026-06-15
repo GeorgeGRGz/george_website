@@ -1,0 +1,13 @@
+{
+  "name": "george-website",
+  "version": "1.0.0",
+  "description": "Сайт Георгий Адамович — маркетолог",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo ok"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
