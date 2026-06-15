@@ -1,0 +1,3120 @@
+<\!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Георгий Адамович — Маркетолог, лидогенерация, маркетинговый отдел</title>
+  <meta name="description" content="Маркетолог-стратег. 10 лет опыта, 300+ проектов, 200 000+ заявок. Строю системы лидогенерации и маркетинговые отделы для МСБ.">
+  <style>
+
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --accent: #38bdf8;
+      --accent-color: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.15);
+      --text: #f8fafc;
+      --text-main: #f8fafc;
+      --muted: #94a3b8;
+      --text-muted: #94a3b8;
+      --green: #4ade80;
+      --purple: #a78bfa;
+      --orange: #fb923c;
+      --star: #fbbf24;
+      --footer-bg: #080f1e;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg-color);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    section { scroll-margin-top: 70px; }
+
+    /* ── Sticky nav ── */
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background: rgba(15,23,42,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid #334155;
+      padding: 0 24px;
+    }
+    .nav-inner {
+      max-width: 1040px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      height: 64px;
+    }
+    .nav-logo {
+      font-weight: 800;
+      font-size: 1rem;
+      color: var(--text);
+      text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      flex: 1;
+    }
+    .nav-links a {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+      white-space: nowrap;
+    }
+    .nav-links a:hover { color: var(--accent); }
+    .nav-cta {
+      background: var(--accent);
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 9px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: opacity 0.2s;
+    }
+    .nav-cta:hover { opacity: 0.85; }
+    @media (max-width: 700px) {
+      .nav-links { display: none; }
+      .nav-logo { flex: 1; }
+    }
+
+
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .hero-section {
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            gap: 24px;
+            align-items: start;
+            margin-bottom: 40px;
+        }
+        @media (max-width: 768px) {
+            .hero-section {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .photo-placeholder {
+                margin: 0 auto;
+            }
+        }
+        .photo-placeholder {
+            width: 380px;
+            height: 480px;
+            border-radius: 16px;
+            overflow: hidden;
+            flex-shrink: 0;
+            margin-top: -16px;
+        }
+        .photo-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+        }
+        .hero-info h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--text-main);
+        }
+        .location {
+            color: var(--accent-color);
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 4px solid var(--accent-color);
+        }
+        .education-box {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 25px;
+        }
+        .education-box h3 {
+            margin-bottom: 10px;
+            color: var(--accent-color);
+        }
+        .education-item {
+            margin-bottom: 10px;
+        }
+        .education-item:last-child {
+            margin-bottom: 0;
+        }
+        .note {
+            font-style: italic;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-top: 5px;
+        }
+        .skills-section {
+            margin-bottom: 50px;
+        }
+        .skills-section h2, .cases-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 10px;
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: #334155;
+            color: var(--text-main);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        .skill-tag:hover {
+            background-color: var(--accent-color);
+            color: var(--bg-color);
+        }
+    
+
+    
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+
+    /* Блок 2 — Услуги */
+    .services-section {
+      margin: 60px 0;
+      padding-top: 40px;
+      border-top: 1px solid #334155;
+    }
+
+    .section-badge {
+      color: var(--accent-color);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      display: block;
+      text-align: center;
+    }
+
+    .services-section h2 {
+      font-size: 2.2rem;
+      line-height: 1.3;
+      margin-bottom: 15px;
+      color: var(--text-main);
+      max-width: 850px;
+    }
+
+    .services-subtitle {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 750px;
+      margin-bottom: 40px;
+    }
+
+    /* Табы */
+    .tabs-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .tab-btn {
+      background-color: var(--card-bg);
+      color: var(--text-muted);
+      border: 1px solid #334155;
+      padding: 14px 24px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--accent-color);
+      color: var(--text-main);
+    }
+
+    .tab-btn.active {
+      background-color: var(--accent-color);
+      color: var(--bg-color);
+      border-color: var(--accent-color);
+      box-shadow: 0 4px 20px rgba(56, 189, 248, 0.2);
+    }
+
+    /* Контент табов */
+    .tab-content {
+      display: none;
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 40px;
+      animation: fadeIn 0.4s ease;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .service-header h3 {
+      font-size: 1.8rem;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .service-target {
+      color: var(--accent-color);
+      font-style: italic;
+      margin-bottom: 25px;
+      font-size: 1.05rem;
+    }
+
+    .service-
+
+    @media (max-width: 768px) {
+      .service-
+      .tab-content   { padding: 25px; }
+    }
+
+    .service-list h4,
+    .service-result h4 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+      color: var(--text-main);
+    }
+
+    .service-list ul { list-style: none; }
+
+    .service-list li {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 12px;
+      color: var(--text-muted);
+    }
+
+    .service-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+
+    .result-box {
+      background-color: #0f172a;
+      padding: 25px;
+      border-radius: 12px;
+      border-left: 4px solid var(--accent-color);
+    }
+
+    .result-item {
+      margin-bottom: 12px;
+      font-size: 1.05rem;
+      color: var(--text-main);
+    }
+
+    .result-item:last-child { margin-bottom: 0; }
+
+    /* CTA */
+    .cta-container {
+      margin-top: 40px;
+      background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%);
+      border: 1px solid #334155;
+      padding: 24px 32px;
+      border-radius: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .cta-container { flex-direction: column; text-align: center; padding: 30px 20px; }
+    }
+
+    .cta-text h4 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; line-height: 1.4; }
+    .cta-text p  { color: var(--text-muted); font-size: 0.82rem; }
+
+    .cta-buttons { display: flex; gap: 15px; flex-wrap: wrap; }
+
+    @media (max-width: 540px) {
+      .cta-buttons { width: 100%; flex-direction: column; }
+    }
+
+    .btn {
+      padding: 16px 28px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background-color: var(--accent-color);
+      color: var(--bg-color);
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #7dd3fc;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: var(--text-main);
+      border: 1px solid #475569;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--accent-color);
+      background-color: rgba(56, 189, 248, 0.05);
+    }
+  
+
+
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}
+
+.container{max-width:1100px;margin:0 auto}
+.section-badge{color:var(--accent);font-size:0.8rem;text-transform:uppercase;letter-spacing:2px;font-weight:600;display:block;margin-bottom:10px;text-align:center}
+h2{font-size:2rem;margin-bottom:8px;color:var(--text);text-align:center}
+.subtitle{color:var(--muted);margin-bottom:36px;font-size:1rem;text-align:center}
+
+.cases-list{display:flex;flex-direction:column;gap:32px}
+
+.case{background:var(--card-bg);border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1fr 320px}
+@media(max-width:768px){.case{grid-template-columns:1fr}}
+
+.case-body{padding:32px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.case-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px;justify-content:center}
+.tag{font-size:0.75rem;padding:4px 12px;border-radius:20px;font-weight:500;background:#334155;color:var(--muted)}
+.tag-accent{background:rgba(56,189,248,0.12);color:var(--accent)}
+.case-body h3{font-size:1.4rem;color:var(--text);margin-bottom:10px;line-height:1.3}
+.case-body p{color:var(--muted);font-size:0.95rem;line-height:1.6;margin-bottom:18px}
+.steps{list-style:none;padding:0;text-align:left;display:inline-block}
+.steps li{position:relative;padding-left:18px;color:var(--muted);font-size:0.9rem;margin-bottom:7px}
+.steps li::before{content:"—";position:absolute;left:0;color:var(--accent)}
+
+.case-stats{background:#0f172a;padding:32px;display:flex;flex-direction:column;justify-content:center;gap:20px;border-left:1px solid #334155}
+@media(max-width:768px){.case-stats{border-left:none;border-top:1px solid #334155}}
+.stat-item{}
+.stat-num{font-size:2rem;font-weight:700;color:var(--accent);line-height:1.1}
+.stat-label{font-size:0.8rem;color:var(--muted);margin-top:3px}
+
+.cta-row{margin-top:40px;text-align:center;border-top:1px solid #334155;padding-top:32px}
+.cta-row p{color:var(--muted);margin-bottom:16px;font-size:0.95rem}
+.btn{display:inline-block;padding:14px 28px;border-radius:8px;font-size:0.95rem;font-weight:600;cursor:pointer;text-decoration:none;transition:all 0.3s}
+.btn-primary{background:var(--accent);color:#0f172a;border:none}
+.btn-primary:hover{background:#7dd3fc;transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:var(--text);border:1px solid #475569;margin-left:12px}
+.btn-ghost:hover{border-color:var(--accent);background:rgba(56,189,248,0.05)}
+
+/* Кнопка показать/скрыть */
+.show-more-wrap{margin-top:32px;text-align:center}
+.btn-toggle{background:transparent;border:1px solid #334155;color:var(--muted);padding:13px 32px;border-radius:8px;font-size:0.95rem;font-weight:500;cursor:pointer;transition:all 0.3s;display:inline-flex;align-items:center;gap:10px}
+.btn-toggle:hover{border-color:var(--accent);color:var(--text)}
+.btn-toggle .chevron{display:inline-block;transition:transform 0.35s ease;font-style:normal}
+
+/* Мелкие кейсы */
+.mini-section{overflow:hidden;max-height:0;transition:max-height 0.6s ease,opacity 0.4s ease;opacity:0}
+.mini-section.open{max-height:5000px;opacity:1}
+.mini-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:28px}
+.mini-card{background:var(--card-bg);border-radius:12px;padding:22px;border-top:3px solid #334155;transition:border-color 0.3s,transform 0.2s,box-shadow 0.2s;cursor:pointer;position:relative}
+.mini-card:hover{border-top-color:var(--accent);transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,0.3)}
+.mini-card::after{content:"Подробнее →";position:absolute;bottom:14px;right:16px;font-size:0.75rem;color:var(--accent);opacity:0;transition:opacity 0.2s}
+.mini-card:hover::after{opacity:1}
+.mini-tag{font-size:0.7rem;padding:3px 10px;border-radius:20px;background:rgba(56,189,248,0.1);color:var(--accent);display:inline-block;margin-bottom:12px;font-weight:500}
+.mini-card h4{font-size:1rem;color:var(--text);margin-bottom:8px;line-height:1.4}
+.mini-card p{font-size:0.85rem;color:var(--muted);margin-bottom:24px;line-height:1.5}
+.mini-result{font-size:0.85rem;color:var(--accent);padding:10px 12px;background:#0f172a;border-radius:8px}
+
+/* Модальное окно */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity 0.25s ease;backdrop-filter:blur(4px)}
+.modal-overlay.open{opacity:1;pointer-events:all}
+.modal{background:var(--card-bg);border-radius:20px;max-width:680px;width:100%;max-height:88vh;overflow-y:auto;position:relative;transform:translateY(20px);transition:transform 0.3s ease;padding:36px}
+.modal-overlay.open .modal{transform:translateY(0)}
+.modal-close{position:absolute;top:16px;right:20px;background:none;border:none;color:var(--muted);font-size:1.6rem;cursor:pointer;line-height:1;transition:color 0.2s}
+.modal-close:hover{color:var(--text)}
+.modal-tag{font-size:0.75rem;padding:4px 12px;border-radius:20px;background:rgba(56,189,248,0.12);color:var(--accent);display:inline-block;margin-bottom:14px;font-weight:500}
+.modal h3{font-size:1.5rem;color:var(--text);margin-bottom:8px;line-height:1.35}
+.modal-desc{color:var(--muted);font-size:0.95rem;line-height:1.6;margin-bottom:24px}
+.modal-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin-bottom:24px}
+.modal-stat{background:#0f172a;border-radius:10px;padding:16px 14px}
+.modal-stat .num{font-size:1.5rem;font-weight:700;color:var(--accent);line-height:1.1}
+.modal-stat .lbl{font-size:0.75rem;color:var(--muted);margin-top:4px}
+.modal-steps-title{font-size:0.8rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:10px}
+.modal-steps{list-style:none;padding:0;margin-bottom:24px}
+.modal-steps li{position:relative;padding-left:20px;color:var(--muted);font-size:0.9rem;margin-bottom:9px;line-height:1.5}
+.modal-steps li::before{content:"—";position:absolute;left:0;color:var(--accent)}
+.modal-cta{display:inline-block;padding:13px 26px;background:var(--accent);color:#0f172a;border-radius:8px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:all 0.3s}
+.modal-cta:hover{background:#7dd3fc;transform:translateY(-2px)}
+  
+
+    
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    
+
+    .section-label {
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .section-sub {
+      text-align: center;
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 64px;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ── Timeline wrapper ── */
+    .timeline {
+      max-width: 860px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* vertical connector line */
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 40px;
+      bottom: 40px;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--accent), var(--purple), var(--accent));
+      transform: translateX(-50%);
+      opacity: 0.25;
+    }
+
+    /* ── Single step ── */
+    .step {
+      display: grid;
+      grid-template-columns: 1fr 60px 1fr;
+      align-items: start;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    /* left card */
+    .step-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px 28px;
+      position: relative;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .step-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 0 24px var(--accent-glow);
+    }
+
+    /* right steps are in col 3 */
+    .step:nth-child(even) .step-card {
+      grid-column: 3;
+      grid-row: 1;
+    }
+    .step:nth-child(even) .step-num {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    /* push odd cards to col 1 */
+    .step:nth-child(odd) .step-card  { grid-column: 1; }
+    .step:nth-child(odd) .step-num   { grid-column: 2; }
+
+    /* center bubble */
+    .step-num {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .bubble {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--card-bg);
+      border: 2px solid var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--accent);
+      box-shadow: 0 0 0 6px var(--bg-color), 0 0 20px var(--accent-glow);
+      flex-shrink: 0;
+    }
+
+    /* card icon */
+    .step-icon {
+      font-size: 2rem;
+      margin-bottom: 12px;
+      line-height: 1;
+    }
+
+    .step-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .step-desc {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+
+    .step-desc strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .step-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+
+    .tag-blue   { background: rgba(56,189,248,0.12); color: var(--accent); }
+    .tag-green  { background: rgba(74,222,128,0.12); color: var(--green); }
+    .tag-purple { background: rgba(167,139,250,0.12); color: var(--purple); }
+    .tag-orange { background: rgba(251,146,60,0.12);  color: var(--orange); }
+
+    /* duration badge */
+    .step-duration {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* ── Bottom CTA ── */
+    .bottom-cta {
+      text-align: center;
+      margin-top: 56px;
+    }
+
+    .bottom-cta p {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--accent);
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 16px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(56,189,248,0.35);
+    }
+
+    /* ── Mobile: stack vertically ── */
+    @media (max-width: 680px) {
+      .timeline::before { display: none; }
+
+      .step {
+        display: block;
+        margin-bottom: 24px;
+      }
+
+      .step-num {
+        display: none;
+      }
+
+      .step-card {
+        border-left: 3px solid var(--accent);
+        border-radius: 12px;
+        padding: 20px;
+      }
+
+      .step:nth-child(even) .step-card { grid-column: auto; }
+    }
+  
+
+    
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    
+
+    .section-label {
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 48px;
+    }
+
+    /* ── Main card ── */
+    .about-card {
+      max-width: 960px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 24px;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 340px 1fr;
+    }
+
+    /* ── LEFT — photo column ── */
+    .photo-col {
+      position: relative;
+      min-height: 480px;
+      overflow: hidden;
+    }
+
+    .photo-col img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+      filter: brightness(0.92) saturate(1.05);
+    }
+
+    /* gradient overlay on bottom of photo */
+    .photo-col::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to right,
+        transparent 60%,
+        var(--card-bg) 100%
+      );
+    }
+
+    /* accent stripe on left edge */
+    .photo-col::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: linear-gradient(to bottom, var(--accent), var(--purple));
+      z-index: 2;
+    }
+
+    /* ── RIGHT — content column ── */
+    .content-col {
+      padding: 44px 44px 44px 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .name-block {}
+
+    .name-block h3 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+
+    .name-block .role {
+      font-size: 0.95rem;
+      color: var(--accent);
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    /* ── Stats grid ── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .stat-item {
+      background: rgba(56, 189, 248, 0.05);
+      border: 1px solid rgba(56, 189, 248, 0.12);
+      border-radius: 14px;
+      padding: 16px 18px;
+      transition: border-color 0.25s, background 0.25s;
+    }
+
+    .stat-item:hover {
+      border-color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    .stat-item .num {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .stat-item .lbl {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    /* ── Bio ── */
+    .bio {
+      font-size: 0.93rem;
+      line-height: 1.7;
+      color: var(--muted);
+      border-left: 2px solid var(--card-border);
+      padding-left: 16px;
+    }
+
+    .bio strong {
+      color: var(--text);
+    }
+
+    /* ── Skills with stars ── */
+    .skills-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .skill-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .skill-name {
+      font-size: 0.85rem;
+      color: var(--text);
+      flex: 1;
+    }
+
+    .stars {
+      display: flex;
+      gap: 3px;
+      flex-shrink: 0;
+    }
+
+    .star {
+      width: 13px;
+      height: 13px;
+      border-radius: 2px;
+    }
+
+    .star.on  { background: var(--accent); }
+    .star.off { background: var(--card-border); }
+
+    /* ── Education & Courses ── */
+    .edu-block {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .edu-col-title {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .edu-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .edu-item:last-child { border-bottom: none; }
+
+    .edu-item .title {
+      font-size: 0.83rem;
+      color: var(--text);
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    .edu-item .sub {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    /* ── Compact courses ── */
+    .courses-compact {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* ── Mission quote ── */
+    .mission {
+      background: rgba(56,189,248,0.06);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 10px 10px 0;
+      padding: 14px 18px;
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.6;
+      font-style: italic;
+    }
+
+    .mission strong { color: var(--text); font-style: normal; }
+
+    /* ── CTA buttons ── */
+    .cta-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: auto;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 13px 26px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(56,189,248,0.35);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: var(--text);
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 13px 26px;
+      border-radius: 50px;
+      text-decoration: none;
+      border: 1px solid var(--card-border);
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 700px) {
+      .about-card {
+        grid-template-columns: 1fr;
+      }
+
+      .photo-col {
+        min-height: 320px;
+      }
+
+      .photo-col::after {
+        background: linear-gradient(
+          to bottom,
+          transparent 50%,
+          var(--card-bg) 100%
+        );
+      }
+
+      .content-col {
+        padding: 28px 24px 32px;
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .stats-grid { grid-template-columns: 1fr; }
+      .cta-row { flex-direction: column; }
+      .edu-block { grid-template-columns: 1fr; }
+    }
+  
+
+    
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    
+
+    .section-label {
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .section-sub {
+      text-align: center;
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 32px;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section-sub a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* ── Grid ── */
+    .reviews-grid {
+      max-width: 1040px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    /* ── Card ── */
+    .review-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 28px 26px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+      position: relative;
+    }
+
+    .review-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 8px 32px var(--accent-glow);
+      transform: translateY(-3px);
+    }
+
+    /* quote mark */
+    .review-card::before {
+      content: '"';
+      position: absolute;
+      top: 16px;
+      right: 22px;
+      font-size: 4rem;
+      line-height: 1;
+      color: var(--accent);
+      opacity: 0.12;
+      font-family: Georgia, serif;
+    }
+
+    /* stars */
+    .stars {
+      display: flex;
+      gap: 3px;
+    }
+
+    .star { color: var(--star); font-size: 0.9rem; }
+
+    /* niche tag */
+    .niche-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: rgba(56,189,248,0.1);
+      color: var(--accent);
+      align-self: flex-start;
+    }
+
+    /* review text */
+    .review-text {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: var(--muted);
+      flex: 1;
+    }
+
+    .review-text strong { color: var(--text); }
+
+    /* author */
+    .review-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-top: 14px;
+      border-top: 1px solid var(--card-border);
+    }
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--purple));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: #0f172a;
+      flex-shrink: 0;
+    }
+
+    .author-info .name {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .author-info .meta {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    /* ── Featured card (wide) ── */
+    .review-card.featured {
+      grid-column: span 2;
+      border-color: rgba(56,189,248,0.25);
+      background: linear-gradient(135deg, #1e293b 0%, #1a2744 100%);
+    }
+
+    .review-card.featured .review-text {
+      font-size: 0.95rem;
+    }
+
+    /* ── Video block ── */
+    .video-block {
+      grid-column: span 3;
+    }
+
+    .video-block-title {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .video-item {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+
+    .video-item:hover { border-color: var(--accent); }
+
+    .video-item iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+      display: block;
+      border: none;
+    }
+
+    @media (max-width: 600px) {
+      .video-block { grid-column: span 1; }
+      .video-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ── CTA row ── */
+    .reviews-cta {
+      text-align: center;
+      margin-top: 44px;
+    }
+
+    .reviews-cta p {
+      color: var(--muted);
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 13px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+      border: 1.5px solid var(--accent);
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .btn-outline:hover {
+      background: var(--accent);
+      color: #0f172a;
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 760px) {
+      .reviews-grid { grid-template-columns: 1fr; }
+      .review-card.featured { grid-column: span 1; }
+    }
+
+    @media (min-width: 761px) and (max-width: 960px) {
+      .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+      .review-card.featured { grid-column: span 2; }
+    }
+  
+
+    
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    
+
+    .section-label {
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .section-sub {
+      text-align: center;
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 32px;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ── Layout ── */
+    .contact-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    /* ── Left: channels ── */
+    .channels {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .channel-card {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 20px 24px;
+      text-decoration: none;
+      transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    }
+
+    .channel-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 6px 24px var(--accent-glow);
+      transform: translateX(4px);
+    }
+
+    .channel-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    .icon-tg   { background: rgba(56,189,248,0.15); }
+    .icon-phone { background: rgba(74,222,128,0.15); }
+    .icon-email { background: rgba(167,139,250,0.15); }
+
+    .channel-info .label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 3px;
+    }
+
+    .channel-info .value {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .channel-info .hint {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .channel-arrow {
+      margin-left: auto;
+      color: var(--muted);
+      flex-shrink: 0;
+      transition: color 0.2s, transform 0.2s;
+    }
+
+    .channel-card:hover .channel-arrow {
+      color: var(--accent);
+      transform: translateX(3px);
+    }
+
+    /* ── Right: form ── */
+    .form-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 36px 32px;
+    }
+
+    .form-card h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .form-card p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      background: var(--bg-color);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 12px 16px;
+      color: var(--text);
+      font-size: 0.92rem;
+      font-family: inherit;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none;
+      appearance: none;
+    }
+
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: var(--muted);
+      opacity: 0.6;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 90px;
+    }
+
+    .form-group select option {
+      background: var(--card-bg);
+    }
+
+    .btn-submit {
+      width: 100%;
+      background: var(--accent);
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 15px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(56,189,248,0.35);
+    }
+
+    .form-note {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-align: center;
+      margin-top: 12px;
+      opacity: 0.7;
+    }
+
+    /* success state */
+    .form-success {
+      display: none;
+      text-align: center;
+      padding: 32px 0;
+    }
+
+    .form-success .icon { font-size: 3rem; margin-bottom: 16px; }
+
+    .form-success h4 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .form-success p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 680px) {
+      .contact-wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .form-card {
+        padding: 28px 20px;
+      }
+    }
+  
+
+    
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    
+
+    /* ── Pre-footer CTA strip ── */
+    .prefooter {
+      background: linear-gradient(135deg, #0f2744 0%, #0f172a 60%);
+      border-top: 1px solid var(--card-border);
+      padding: 40px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .prefooter::before {
+      content: '';
+      position: absolute;
+      top: -80px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(56,189,248,0.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .prefooter-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .prefooter h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 800;
+      line-height: 1.2;
+      max-width: 640px;
+      margin: 0 auto 12px;
+    }
+
+    .prefooter h2 span { color: var(--accent); }
+
+    .prefooter p {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 32px;
+      max-width: 440px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .prefooter-btns {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 15px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(56,189,248,0.35);
+    }
+
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 15px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      border: 1px solid var(--card-border);
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* ── Footer body ── */
+    footer {
+      background: var(--footer-bg);
+      border-top: 1px solid #1a2744;
+      padding: 48px 24px 32px;
+    }
+
+    .footer-inner {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 48px;
+    }
+
+    /* Brand col */
+    .footer-brand .logo {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    .footer-brand .logo span { color: var(--accent); }
+
+    .footer-brand .tagline {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 10px;
+    }
+
+    .social-link {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .social-link:hover {
+      border-color: var(--accent);
+      background: rgba(56,189,248,0.1);
+    }
+
+    /* Nav cols */
+    .footer-col h4 {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-col ul li a {
+      font-size: 0.88rem;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-col ul li a:hover {
+      color: var(--accent);
+    }
+
+    /* ── Divider ── */
+    .footer-divider {
+      height: 1px;
+      background: var(--card-border);
+      margin-bottom: 24px;
+      opacity: 0.5;
+    }
+
+    /* ── Bottom bar ── */
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-bottom .copy {
+      font-size: 0.8rem;
+      color: var(--muted);
+      opacity: 0.7;
+    }
+
+    .footer-bottom .legal-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .footer-bottom .legal-links a {
+      font-size: 0.78rem;
+      color: var(--muted);
+      text-decoration: none;
+      opacity: 0.7;
+      transition: opacity 0.2s, color 0.2s;
+    }
+
+    .footer-bottom .legal-links a:hover {
+      opacity: 1;
+      color: var(--accent);
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 760px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+
+      .footer-brand { grid-column: span 2; }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+      }
+
+      .prefooter-btns { flex-direction: column; align-items: center; }
+    }
+
+    @media (max-width: 480px) {
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-brand { grid-column: span 1; }
+    }
+  
+  
+    /* Cases section header centering */
+    #cases h2, #cases .subtitle, #cases .section-badge { text-align: center; }
+
+  </style>
+</head>
+<body>
+
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#hero">Георгий <span>Адамович</span></a>
+    <div class="nav-links">
+      <a href="#services">Услуги</a>
+      <a href="#cases">Кейсы</a>
+      <a href="#process">Как работаю</a>
+      <a href="#about">О себе</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contact">Контакты</a>
+    </div>
+    <a href="https://t.me/george_adam" class="nav-cta" target="_blank">Бесплатный аудит →</a>
+  </div>
+</nav>
+
+
+
+<section id="hero" style="padding: 48px 20px;">
+<div class="container">
+
+    <section class="hero-section">
+        <div class="photo-placeholder">
+            <img src="hero.jpg" alt="Георгий Адамович — маркетолог">
+        </div>
+        <div class="hero-info">
+            <h1>Георгий Адамович</h1>
+            <div class="location">📍 Санкт-Петербург</div>
+            <div class="tagline">
+                <strong>Специалист по трафику</strong> — 10 лет опыта в платном трафике (с 2016 г.)
+            </div>
+            <div class="tagline">
+                <strong>Маркетолог-стратег по глэмпингам</strong> — 4 года узкой специализации в нише (с 2022 г.)
+            </div>
+            <div class="education-box">
+                <h3>Образование</h3>
+                <div class="education-item">• <strong>Экономика и управление</strong> (ГрГУ)</div>
+                <div class="education-item">• <strong>Психолог-терапевт</strong> — второе высшее (ТВУ)</div>
+                <div class="note">
+                    *Редкая комбинация компетенций: глубокое понимание как юнит-экономики, так и внутренней мотивации покупателя.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <h2>Общая экспертиза</h2>
+        <div class="skills-grid">
+            <span class="skill-tag">ВКонтакте</span>
+            <span class="skill-tag">Яндекс Директ</span>
+            <span class="skill-tag">Facebook/Instagram</span>
+            <span class="skill-tag">Авито</span>
+            <span class="skill-tag">Воронки</span>
+            <span class="skill-tag">Чат-боты</span>
+            <span class="skill-tag">Аналитика</span>
+            <span class="skill-tag">Кастдев</span>
+            <span class="skill-tag">Копирайтинг</span>
+            <span class="skill-tag">Найм</span>
+            <span class="skill-tag">Управление процессами</span>
+            <span class="skill-tag">Системная лидогенерация (ConvertMonster)</span>
+        </div>
+    </section>
+
+
+</div>
+</section>
+
+<section id="services" style="padding: 48px 20px;">
+<section class="services-section">
+
+  <span class="section-badge">Что вы получите</span>
+
+  <h2>Маркетинговая система под ключ —<br>от стратегии до первых клиентов с новой рекламы за 30 дней</h2>
+
+  <p class="services-subtitle">
+    Для собственников малого и среднего бизнеса, которые хотят мотивированную на результат команду с опытом работы в их нише.
+  </p>
+
+  <!-- Табы -->
+  <div class="tabs-container">
+    <button class="tab-btn active" onclick="openService(event, 'service1')">Маркетинг под ключ</button>
+    <button class="tab-btn" onclick="openService(event, 'service2')">Трафик и реклама</button>
+    <button class="tab-btn" onclick="openService(event, 'service3')">Контент и блогеры</button>
+    <button class="tab-btn" onclick="openService(event, 'service4')">Аналитика и стратегия</button>
+  </div>
+
+  <!-- Услуга 1 — Маркетинг под ключ -->
+  <div id="service1" class="tab-content active">
+    <div class="service-header">
+      <h3>Выстраиваю систему маркетинга с нуля</h3>
+      <p class="service-target">Если нет понимания, откуда приходят бронирования — начинаем отсюда.</p>
+    </div>
+    <div class="service-body">
+      <div class="service-list">
+        <h4>Состав</h4>
+        <ul>
+          <li>Анализ целевой аудитории, конкурентов и болей гостей</li>
+          <li>Главный оффер: почему к вам, а не к конкуренту</li>
+          <li>Юнит-экономика: CPL, CAC, LTV, медиаплан на сезон</li>
+          <li>Запуск каналов: Директ, ВКонтакте, Авито</li>
+          <li>Воронка и чат-бот для прогрева и удержания аудитории</li>
+          <li>Еженедельные отчёты с реальными цифрами</li>
+        </ul>
+      </div>
+      <div class="service-result">
+        <h4>Результат</h4>
+        <div class="result-box">
+          <p class="result-item">→ Загрузка производственных мощностей на 95%</p>
+          <p class="result-item">→ Выручка выросла до 10 млн ₽/мес благодаря рекламе из разных каналов</p>
+          <p class="result-item">→ Расходы на маркетинг ниже 10–15% от выручки</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Услуга 2 — Трафик и реклама -->
+  <div id="service2" class="tab-content">
+    <div class="service-header">
+      <h3>Запускаю рекламу, которая даёт клиентов</h3>
+      <p class="service-target">Если уже льёте бюджет — но не понимаете, что работает, а что нет.</p>
+    </div>
+    <div class="service-body">
+      <div class="service-list">
+        <h4>Состав</h4>
+        <ul>
+          <li>Яндекс Директ — горячий спрос, клиенты здесь и сейчас</li>
+          <li>Таргет ВКонтакте — прогрев и накопление базы подписчиков</li>
+          <li>Авито — дополнительный канал без комиссии агрегаторов</li>
+          <li>Ретаргетинг — возвращаем тех, кто смотрел но не обратился</li>
+          <li>А/Б-тестирование связок, ежедневная оптимизация кампаний</li>
+        </ul>
+      </div>
+      <div class="service-result">
+        <h4>Результат</h4>
+        <div class="result-box">
+          <p class="result-item">→ Лид из таргета — от 800 ₽</p>
+          <p class="result-item">→ Клиент из Директа — от 1 500 до 3 500 ₽</p>
+          <p class="result-item">→ Снижение стоимости лида в Директе с 4 500 до 1 500 ₽ (кейс)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Услуга 3 — Контент и блогеры -->
+  <div id="service3" class="tab-content">
+    <div class="service-header">
+      <h3>Строю медиаактив, который работает без вас</h3>
+      <p class="service-target">Если хотите собственную аудиторию — не зависеть от агрегаторов и холодного трафика.</p>
+    </div>
+    <div class="service-body">
+      <div class="service-list">
+        <h4>Состав</h4>
+        <ul>
+          <li>Контент-план на 3 месяца под ваш объект</li>
+          <li>Reels, фото, видео — атмосфера, которая заставляет бронировать</li>
+          <li>Отдел из 15 блогеров — охват и живые отзывы</li>
+          <li>Рост и ведение сообщества ВКонтакте</li>
+          <li>Чат-бот: прогрев, акции, повторные визиты</li>
+        </ul>
+      </div>
+      <div class="service-result">
+        <h4>Результат</h4>
+        <div class="result-box">
+          <p class="result-item">→ 100 000+ подписчиков во всех соцсетях</p>
+          <p class="result-item">→ Подписчик в чат-бот от 50 ₽</p>
+          <p class="result-item">→ +2 000 000 ₽ выручки в месяц с собственного канала</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Услуга 4 — Аналитика и стратегия -->
+  <div id="service4" class="tab-content">
+    <div class="service-header">
+      <h3>Считаю каждый рубль — и знаю, что с ним делать</h3>
+      <p class="service-target">Если хотите понять, откуда приходят деньги и куда уходит бюджет.</p>
+    </div>
+    <div class="service-body">
+      <div class="service-list">
+        <h4>Состав</h4>
+        <ul>
+          <li>Настройка Яндекс.Метрики и сквозной аналитики</li>
+          <li>Кастдев с гостями — почему выбирают и возвращаются</li>
+          <li>Еженедельные отчёты: CPL, ROMI, количество броней</li>
+          <li>Стратегия на сезон с медиапланом и бюджетами</li>
+          <li>Позиционирование и уникальность объекта</li>
+        </ul>
+      </div>
+      <div class="service-result">
+        <h4>Результат</h4>
+        <div class="result-box">
+          <p class="result-item">→ Знаете стоимость клиента до рубля</p>
+          <p class="result-item">→ Каждый рубль рекламы прозрачен и управляем</p>
+          <p class="result-item">→ Рост повторных визитов на 30%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-container">
+    <div class="cta-text">
+      <h4>Анализ рекламы на топ-5 ошибок в продвижении, которые стоят собственнику <span style="color:var(--accent)">сотни тысяч</span>, а иногда и миллионы рублей в год</h4>
+      <p>30 минут · Бесплатно · Конкретный план под ваш бизнес</p>
+    </div>
+    <div class="cta-buttons">
+      <a href="https://t.me/george_adam" target="_blank" class="btn btn-primary">Анализ рекламы на одну из топ-5 ошибок</a>
+      <a href="https://t.me/george_adam" target="_blank" class="btn btn-secondary">Одну ошибку исправим прямо на созвоне</a>
+    </div>
+  </div>
+
+</section>
+</section>
+
+<section id="cases" style="padding: 48px 20px;">
+<div class="container">
+  <span class="section-badge">Реальные результаты</span>
+  <h2>Кейсы — только цифры</h2>
+  <p class="subtitle">Никакого «улучшили показатели» — конкретные стоимости и измеримые результаты.</p>
+
+  <div class="cases-list">
+
+    <!-- Кейс 1 -->
+    <div class="case">
+      <div class="case-body">
+        <div class="case-meta">
+          <span class="tag tag-accent">Глэмпинг</span>
+          <span class="tag">ВКонтакте · Директ · Авито</span>
+          <span class="tag">2022–2025</span>
+        </div>
+        <h3>Маркетинг глэмпинг-отеля с нуля — до 10 млн ₽/мес</h3>
+        <p>Объект «На Краю Земли»: 21 дом, стартовали с 5. Выстроил всю систему маркетинга: стратегия, трафик, контент, блогеры, аналитика. Отвечаю за загрузку объекта по сей день.</p>
+        <ul class="steps">
+          <li>Разработал стратегию и медиаплан с нуля</li>
+          <li>Запустил Яндекс Директ, таргет ВКонтакте, Авито</li>
+          <li>Построил воронку с чат-ботом: подписчик от 50 ₽</li>
+          <li>Собрал отдел из 15 блогеров — 100 000+ подписчиков</li>
+          <li>Настроил сквозную аналитику: CPL, ROMI, LTV</li>
+        </ul>
+      </div>
+      <div class="case-stats">
+        <div class="stat-item">
+          <div class="stat-num">92%</div>
+          <div class="stat-label">среднегодовая загрузка в 2025</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">10 млн ₽</div>
+          <div class="stat-label">выручка в месяц (было 0)</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">100К+</div>
+          <div class="stat-label">подписчиков в соцсетях</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">&lt;10%</div>
+          <div class="stat-label">расходы на маркетинг от выручки</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Кейс 2 -->
+    <div class="case">
+      <div class="case-body">
+        <div class="case-meta">
+          <span class="tag tag-accent">Инфлюенс-маркетинг</span>
+          <span class="tag">Блогеры · Маркетплейсы · Сайт</span>
+          <span class="tag">Глэмпинг</span>
+        </div>
+        <h3>Отдел блогеров на 15 человек — +2 млн ₽/мес с сайта</h3>
+        <p>Задача: выстроить системный инфлюенс-канал, который приносит измеримую выручку — не просто охваты. Подобрал, обучил и организовал работу команды блогеров.</p>
+        <ul class="steps">
+          <li>Разработал систему отбора и оценки блогеров</li>
+          <li>Прописал ТЗ, скрипты и форматы интеграций</li>
+          <li>Настроил аналитику: UTM-метки, конверсии по каждому автору</li>
+          <li>Масштабировал до 12 постоянных менеджеров по работе с блогерами и 25 постоянных авторов, которые рекламировали продукт</li>
+        </ul>
+      </div>
+      <div class="case-stats">
+        <div class="stat-item">
+          <div class="stat-num">+2 млн ₽</div>
+          <div class="stat-label">выручка с сайта в месяц</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">15</div>
+          <div class="stat-label">блогеров в постоянной работе</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">+доход</div>
+          <div class="stat-label">с маркетплейсов сверху</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Кейс 3 -->
+    <div class="case">
+      <div class="case-body">
+        <div class="case-meta">
+          <span class="tag tag-accent">Перезапуск трафика</span>
+          <span class="tag">ВКонтакте · Яндекс Директ</span>
+          <span class="tag">Системы водоочистки</span>
+        </div>
+        <h3>Снижение стоимости лида с 4 500 до 1 500 ₽ в Директе</h3>
+        <p>Клиент сливал бюджет в Яндекс Директе — дорогие лиды, нет системы. Перезапустил трафик: аудит кампаний, новая структура, параллельный запуск ВКонтакте.</p>
+        <ul class="steps">
+          <li>Провёл аудит кабинета Директа — нашёл ключевые ошибки</li>
+          <li>Пересобрал кампании: новая структура, минус-слова, ставки</li>
+          <li>Запустил таргет ВКонтакте как дополнительный канал</li>
+          <li>Настроил сквозную аналитику по каналам</li>
+        </ul>
+      </div>
+      <div class="case-stats">
+        <div class="stat-item">
+          <div class="stat-num">1 500 ₽</div>
+          <div class="stat-label">стоимость лида в Директе (было 4 500 ₽)</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">÷3</div>
+          <div class="stat-label">снижение CPL в 3 раза</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">800–1К ₽</div>
+          <div class="stat-label">лид из ВКонтакте</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Кнопка -->
+  <div class="show-more-wrap">
+    <button class="btn-toggle" id="toggleBtn" onclick="toggleCases()">
+      Показать больше кейсов <span class="chevron" id="chevron">↓</span>
+    </button>
+  </div>
+
+  <!-- Мелкие кейсы -->
+  <div class="mini-section" id="miniSection">
+    <div class="mini-grid">
+
+      <!-- Фитнес и онлайн-проекты -->
+      <div class="mini-card" onclick="openModal('marathon')">
+        <span class="mini-tag">Онлайн-марафон · ВКонтакте · 2 потока</span>
+        <h4>Марафон по сыроедению — 1 870 лидов, ~498 000 ₽</h4>
+        <p>Поток 1: 30 250 ₽ → 610 лидов. Поток 2: 61 715 ₽ → 1 260 лидов.</p>
+        <div class="mini-result">→ 1 870 лидов · 49 ₽/лид · ~498 000 ₽ выручки</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('marathon2')">
+        <span class="mini-tag">Онлайн-марафон · ВКонтакте · Весь мир</span>
+        <h4>Марафон сыроедение (масштаб) — 11 110 обращений</h4>
+        <p>Масштабная кампания: ВКонтакте, ГЕО весь мир, стратегия приёма трафика.</p>
+        <div class="mini-result">→ 11 110 лидов · 47 ₽/лид · бюджет 525 134 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('putstroy1')">
+        <span class="mini-tag">Фитнес-проект · Новосибирск</span>
+        <h4>«Путь к стройности» — 852 лида по 57 ₽, 28 оплат</h4>
+        <p>ВКонтакте + Instagram + пиар личного бренда + воронка продаж.</p>
+        <div class="mini-result">→ 852 лида · 57 ₽/лид · 28 оплатили участие</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('putstroy2')">
+        <span class="mini-tag">Фитнес-проект · Новосибирск · Ч2</span>
+        <h4>«Путь к стройности» Ч2 — 800 лидов, 33 участницы</h4>
+        <p>ВК/Inst + оформление посадочных + продающие скрипты + контент-план.</p>
+        <div class="mini-result">→ 800 лидов · бюджет 40 000 ₽ · 33 новых участницы</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('beautyfit')">
+        <span class="mini-tag">Фитнес · Тюмень</span>
+        <h4>BeautyFIT — 485 лидов по 40 ₽</h4>
+        <p>ВКонтакте + оформление сообщества + продающие скрипты.</p>
+        <div class="mini-result">→ 485 лидов · 40 ₽/лид · бюджет 19 531 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('beloesun')">
+        <span class="mini-tag">Фитнес-клуб · г. Уральск</span>
+        <h4>«Белое Солнце» — 2 428 лидов по 26 ₽</h4>
+        <p>Фитнес-клуб + бассейн + баня. Таргет ВКонтакте, геосегментация.</p>
+        <div class="mini-result">→ 2 428 лидов · 26 ₽/заявка · бюджет 64 787 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('maximum')">
+        <span class="mini-tag">Фитнес · г. Орёл</span>
+        <h4>«Maximum» — 318 лидов, 50 абонементов</h4>
+        <p>Таргет ВКонтакте. 318 лидов по 63 ₽, продано 50 абонементов.</p>
+        <div class="mini-result">→ 318 лидов · 63 ₽/лид · 50 абонементов</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('crossfit')">
+        <span class="mini-tag">Кроссфит · г. Королёв</span>
+        <h4>Crossfit Start Fitness — 76 лидов, 197 ₽/лид</h4>
+        <p>Нишевый кроссфит-клуб. Аудитория осознанных спортсменов с высоким LTV.</p>
+        <div class="mini-result">→ 76 лидов · 197 ₽/лид · бюджет 15 000 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('kursk')">
+        <span class="mini-tag">Фитнес · г. Курск</span>
+        <h4>«Санта-Моника» — 2 463 лида к Новому году</h4>
+        <p>Предзаказ абонементов со скидкой 50%. Senler авто-ответ.</p>
+        <div class="mini-result">→ 2 463 лида · 21 ₽/лид · бюджет 52 227 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('safari')">
+        <span class="mini-tag">Фитнес · ROMI ×15</span>
+        <h4>Safari Sport — 455 000 ₽ при вложениях 30 000 ₽</h4>
+        <p>Пошаговая воронка прогрева. Охват 100 000+ ЦА.</p>
+        <div class="mini-result">→ 455 000 ₽ выручки · бюджет 30 000 ₽ · ROMI ×15</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('barbara')">
+        <span class="mini-tag">Фитнес · г. Ижевск</span>
+        <h4>«Барбара» — 200 клиентов, 550 000 ₽ продаж</h4>
+        <p>Женская фитнес-студия. 6 месяцев: 1 412 обращений, конверсия 14%.</p>
+        <div class="mini-result">→ 200 клиентов · 464 ₽/клиент · 550 000 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('zhemchug')">
+        <span class="mini-tag">Детская гимнастика · Новосибирск</span>
+        <h4>«Жемчужина» — 17 абонементов по 536 ₽/клиент</h4>
+        <p>Спортцентр для детей 3+. За 21 день: 9 119 ₽ → 67 записей → 17 купили.</p>
+        <div class="mini-result">→ 136 ₽/заявка · 536 ₽/клиент · конверсия 25%</div>
+      </div>
+
+      <!-- Детский спорт и танцы -->
+      <div class="mini-card" onclick="openModal('jimtime')">
+        <span class="mini-tag">Детский спортклуб · г. Абакан</span>
+        <h4>«Джим-Тайм» — 104 обращения по 51 ₽</h4>
+        <p>Детский спортивный клуб. Таргет ВКонтакте, ЦА — мамы с детьми.</p>
+        <div class="mini-result">→ 104 обращения · 50.74 ₽/лид · бюджет 5 277 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('cheerkids')">
+        <span class="mini-tag">Чирлидинг · г. Гродно</span>
+        <h4>Sky Hamsters — 120+ посетили мастер-класс, 38 абонементов</h4>
+        <p>Реклама на мастер-класс. Бюджет 11 200 ₽, скрипты для переписки.</p>
+        <div class="mini-result">→ 120+ на мероприятие · 38 купили абонемент</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('skyham2')">
+        <span class="mini-tag">Чирлидинг · г. Гродно · Кейс 2</span>
+        <h4>Sky Hamsters — 37 пришли, 10 на платной основе</h4>
+        <p>Запуск мастер-класса с малым бюджетом. Оформление группы + воронка продаж.</p>
+        <div class="mini-result">→ 37 пришли · 10 продолжили · бюджет 1 800 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('cheergrodno')">
+        <span class="mini-tag">Чирлидинг взрослые · г. Гродно</span>
+        <h4>Чирлидинг-клуб — 46 анкет, 30–35 ₽/заявка</h4>
+        <p>Набор состава через ВКонтакте + Instagram. Лично обрабатывал заявки.</p>
+        <div class="mini-result">→ 46 анкет · 38 пришли · 30–35 остались</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('demarche')">
+        <span class="mini-tag">Студия танца · г. Санкт-Петербург</span>
+        <h4>«De-Marche» — 64 анкеты по 92 ₽</h4>
+        <p>Таргет ВКонтакте + подготовка посадочной под трафик.</p>
+        <div class="mini-result">→ 64 анкеты · 92 ₽/лид · бюджет 5 905 ₽</div>
+      </div>
+
+      <!-- E-commerce и услуги -->
+      <div class="mini-card" onclick="openModal('manicure')">
+        <span class="mini-tag">Красота · г. Королёв</span>
+        <h4>Студия маникюра — 85 обращений по 59 ₽</h4>
+        <p>Таргет ВКонтакте + подготовка группы под приём трафика.</p>
+        <div class="mini-result">→ 85 обращений · 59 ₽/лид · бюджет 5 000 ₽</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('neposeda')">
+        <span class="mini-tag">Магазин игрушек · г. Гродно</span>
+        <h4>«Непоседа» — 1 604 перехода по 3 ₽</h4>
+        <p>Таргет ВКонтакте + стратегия по приёму трафика. 1 100 новых подписчиков.</p>
+        <div class="mini-result">→ 1 604 перехода · 3 ₽/клик · 150+ органических обращений</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('sofa')">
+        <span class="mini-tag">Мебель · г. Чебоксары</span>
+        <h4>Салон мягкой мебели — 82 000 ₽ продаж при 6 500 ₽</h4>
+        <p>ВКонтакте: 110 заявок (59 ₽/лид), 1 079 подписчиков, 4 продажи.</p>
+        <div class="mini-result">→ 110 лидов · 59 ₽ · 82 000 ₽ выручки</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('rogaolenya')">
+        <span class="mini-tag">E-commerce · Россия · ROI 400–450%</span>
+        <h4>«Рога Оленя» — ROI 400%, 19 708 переходов по 4.78 ₽</h4>
+        <p>Лакомства для собак. 2 101 610 показов, 4 662 новых подписчика.</p>
+        <div class="mini-result">→ 19 708 переходов · 4.78 ₽/клик · ROI 400–450%</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('hrumstik')">
+        <span class="mini-tag">E-commerce · Лакомства для собак</span>
+        <h4>«Хрум-Стик» — 45 клиентов, 56 000 ₽ продаж</h4>
+        <p>Тест продаж лакомств через ВКонтакте. 8 250 ₽ → 45 новых клиентов по 185 ₽.</p>
+        <div class="mini-result">→ 45 клиентов · 185 ₽/клиент · 56 000 ₽ продаж</div>
+      </div>
+
+      <div class="mini-card" onclick="openModal('vebinar')">
+        <span class="mini-tag">Вебинар · Эзотерика · ВКонтакте</span>
+        <h4>1 265 заявок на вебинар по 24 ₽</h4>
+        <p>Привлечение ЦА на бесплатный вебинар. Задача: до 70 ₽/лид. Результат: 24 ₽.</p>
+        <div class="mini-result">→ 1 265 заявок · 24 ₽/лид · бюджет 30 000 ₽</div>
+      </div>
+
+    </div>
+
+    <!-- Кнопка скрыть — внутри секции, снизу -->
+    <div style="text-align:center;margin-top:24px">
+      <button class="btn-toggle" onclick="toggleCases()">
+        Скрыть кейсы <span class="chevron" style="transform:rotate(180deg)">↓</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Модальное окно -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModalOnBg(event)">
+    <div class="modal" id="modalBox">
+      <button class="modal-close" onclick="closeModal()">×</button>
+      <span class="modal-tag" id="mTag"></span>
+      <h3 id="mTitle"></h3>
+      <p class="modal-desc" id="mDesc"></p>
+      <div class="modal-stats" id="mStats"></div>
+      <p class="modal-steps-title">Что было сделано</p>
+      <ul class="modal-steps" id="mSteps"></ul>
+      <a href="https://t.me/george_adam" class="modal-cta" target="_blank">Обсудить похожую задачу</a>
+    </div>
+  </div>
+
+  <div class="cta-row" style="text-align:left; display:grid; grid-template-columns:1fr auto; gap:32px; align-items:center; background:var(--card-bg); border:1px solid var(--card-border); border-radius:16px; padding:28px 32px;">
+    <div>
+      <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);margin-bottom:8px;">Бесплатный разбор</div>
+      <p style="font-size:1.05rem;font-weight:700;color:var(--text);margin-bottom:10px;">Независимый анализ вашей планёрки по маркетингу — 12 из 39 маркеров эффективной планёрки</p>
+      <p style="color:var(--muted);font-size:0.9rem;line-height:1.6;margin-bottom:0;">Я лично присутствую на встрече и после её завершения даю обратную связь по каждому из участников — честно и мягко, чтобы это способствовало росту компании.</p>
+    </div>
+    <a href="https://t.me/george_adam" class="btn btn-primary" style="white-space:nowrap;flex-shrink:0;">Записаться на разбор</a>
+  </div>
+</div>
+</section>
+
+<section id="process" style="padding: 48px 20px;">
+<p class="section-label">Процесс работы</p>
+  <h2>Как строится работа</h2>
+  <p class="section-sub">От первого созвона до работающего маркетингового отдела — без хаоса и без «подождём результатов»</p>
+
+  <div class="timeline">
+
+    <!-- STEP 1 -->
+    <div class="step">
+      <div class="step-card">
+        <div class="step-icon">☎️</div>
+        <span class="step-tag tag-blue">Шаг 1</span>
+        <div class="step-title">Диагностика бизнеса</div>
+        <div class="step-desc">
+          Созваниваемся и разбираем вашу ситуацию: <strong>продукт, воронка, текущие каналы привлечения,
+          узкие места</strong>. Я задаю неудобные вопросы — это помогает найти, где именно теряются
+          деньги и клиенты прямо сейчас.
+        </div>
+        <div class="step-duration">⏱ 60 минут · бесплатно</div>
+      </div>
+      <div class="step-num"><div class="bubble">1</div></div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step">
+      <div class="step-num"><div class="bubble">2</div></div>
+      <div class="step-card">
+        <div class="step-icon">🔍</div>
+        <span class="step-tag tag-purple">Шаг 2</span>
+        <div class="step-title">Аудит и анализ рынка</div>
+        <div class="step-desc">
+          Разбираю вашу рекламу, сайт и конкурентов.
+          Нахожу <strong>что работает у лидеров рынка, какие связки копировать,
+          где недооценённая аудитория</strong>.
+          Итог — карта возможностей с конкретными точками роста.
+        </div>
+        <div class="step-duration">⏱ 2–3 дня</div>
+      </div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step">
+      <div class="step-card">
+        <div class="step-icon">🗺️</div>
+        <span class="step-tag tag-orange">Шаг 3</span>
+        <div class="step-title">Стратегия лидогенерации</div>
+        <div class="step-desc">
+          Проектирую <strong>систему привлечения клиентов под ваш бизнес</strong>:
+          какие каналы, какие офферы, какой бюджет, какие KPI.
+          Никаких абстрактных «повышаем охваты» — только конкретный план
+          с понятными цифрами на выходе.
+        </div>
+        <div class="step-duration">⏱ 3–5 дней</div>
+      </div>
+      <div class="step-num"><div class="bubble">3</div></div>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="step">
+      <div class="step-num"><div class="bubble">4</div></div>
+      <div class="step-card">
+        <div class="step-icon">⚙️</div>
+        <span class="step-tag tag-green">Шаг 4</span>
+        <div class="step-title">Построение маркетинг-системы</div>
+        <div class="step-desc">
+          Выстраиваю <strong>полный цикл: трафик → лид → квалификация → продажа</strong>.
+          Настраиваю рекламные кампании, создаю посадочные, прописываю скрипты обработки заявок.
+          Ваша команда получает инструкции — система работает без постоянного «ручного управления».
+        </div>
+        <div class="step-duration">⏱ 1–2 недели на запуск</div>
+      </div>
+    </div>
+
+    <!-- STEP 5 -->
+    <div class="step">
+      <div class="step-card">
+        <div class="step-icon">📈</div>
+        <span class="step-tag tag-blue">Шаг 5</span>
+        <div class="step-title">Тест, оптимизация, масштаб</div>
+        <div class="step-desc">
+          Запускаем, смотрим на данные, убираем что не работает.
+          <strong>Масштабируем связки с лучшей стоимостью заявки</strong>.
+          A/B тесты аудиторий, офферов, креативов — каждую неделю система
+          становится эффективнее.
+        </div>
+        <div class="step-duration">⏱ непрерывно в течение всего сотрудничества</div>
+      </div>
+      <div class="step-num"><div class="bubble">5</div></div>
+    </div>
+
+    <!-- STEP 6 -->
+    <div class="step">
+      <div class="step-num"><div class="bubble">6</div></div>
+      <div class="step-card">
+        <div class="step-icon">📋</div>
+        <span class="step-tag tag-purple">Шаг 6</span>
+        <div class="step-title">Отчётность и передача</div>
+        <div class="step-desc">
+          Еженедельные отчёты: <strong>лиды, CPL, ROMI, конверсии по этапам воронки</strong>.
+          По завершении — полная документация системы, чтобы вы могли
+          управлять маркетингом самостоятельно или передать штатному сотруднику.
+        </div>
+        <div class="step-duration">⏱ еженедельно + финальный отчёт</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="bottom-cta">
+    <p>Хотите разобрать вашу ситуацию?</p>
+    <a href="https://t.me/george_adam" target="_blank" class="btn-primary">
+      Дорожная карта по увеличению числа целевых лидов на 20–30%
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+  </div>
+</section>
+
+<section id="about" style="padding: 48px 20px;">
+<p class="section-label">Кто за этим стоит</p>
+  <h2>О специалисте</h2>
+
+  <div class="about-card">
+
+    <!-- ФОТО -->
+    <div class="photo-col">
+      <img src="george.jpg" alt="Георгий Адамович — маркетолог">
+    </div>
+
+    <!-- КОНТЕНТ -->
+    <div class="content-col">
+
+      <div class="name-block">
+        <h3>Георгий Адамович</h3>
+        <div class="role">Маркетолог · Директор по маркетингу · Стратег</div>
+      </div>
+
+      <!-- СТАТИСТИКА -->
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="num">10 лет</div>
+          <div class="lbl">в маркетинге и рекламе</div>
+        </div>
+        <div class="stat-item">
+          <div class="num">300+</div>
+          <div class="lbl">проектов запущено в таргете</div>
+        </div>
+        <div class="stat-item">
+          <div class="num">200 000+</div>
+          <div class="lbl">заявок получено клиентами</div>
+        </div>
+        <div class="stat-item">
+          <div class="num">10+</div>
+          <div class="lbl">проектов в роли директора<br>по маркетингу</div>
+        </div>
+      </div>
+
+      <!-- БИО -->
+      <div class="bio">
+        Начинал с таргета — дорос до управления рекламными отделами.
+        За <strong>4 года руководства</strong> выстроил маркетинговые системы в нишах
+        от b2c-услуг до загородного отдыха.
+        Умею не просто «настроить рекламу», а <strong>создать поток заявок,
+        который работает без постоянного ручного вмешательства — благодаря системной лидогенерации</strong>.
+        Говорю на языке цифр: CPL, ROMI, LTV — а не «охваты» и «вовлечённость».
+      </div>
+
+      <!-- МИССИЯ -->
+      <div class="mission">
+        <strong>Миссия:</strong> помочь собственнику малого и среднего бизнеса делегировать построение и управление маркетингом — и получить систему, которая работает без его постоянного участия.
+      </div>
+
+      <!-- ОБРАЗОВАНИЕ И КУРСЫ -->
+      <div class="edu-block">
+        <div>
+          <div class="edu-col-title">Образование</div>
+          <div class="edu-item">
+            <span class="title">ГрГУ им. Янки Купалы</span>
+            <span class="sub">Экономика и управление</span>
+          </div>
+          <div class="edu-item">
+            <span class="title">ТВУ</span>
+            <span class="sub">Психолог-терапевт · второе высшее</span>
+          </div>
+        </div>
+        <div>
+          <div class="edu-col-title">Курсы · 2016–2026</div>
+          <div class="courses-compact">
+            Школа Таргета (Князев), Парсинг и Таргет ВК (Волков), Кафедра Контента, Таргет FB/Inst (Гончаров), Академия «Фокус.Трафик» (Дашкиев), Воронки и кастдев (Кадыров), Найм и бизнес-процессы (Долгов), Система лидогенерации (Петроченко)
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-row">
+        <a href="https://t.me/george_adam" target="_blank" class="btn-primary">
+          Написать в Telegram
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="Screen_3_Cases.html" class="btn-secondary">
+          Смотреть кейсы
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="reviews" style="padding: 48px 20px;">
+<p class="section-label">Говорят клиенты</p>
+  <h2>Отзывы</h2>
+  <p class="section-sub">Все отзывы реальные — <a href="https://vk.com/topic-146321488_35569125" target="_blank">читать в ВКонтакте →</a></p>
+
+  <div class="reviews-grid">
+
+    <!-- ОТЗЫВ 1 — широкий, featured -->
+    <div class="review-card featured">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <span class="niche-tag">Глэмпинг</span>
+      <div class="review-text">
+          «Начали работу прямо перед стартом сезона — <strong>за первые два месяца загрузка выросла с 40 до 90%</strong>. Но главное не это: Георгий параллельно готовил почву для работы вне сезона. В итоге <strong>сентябрь и октябрь дали +15–20% к бронированиям</strong> по сравнению с прошлым годом.»
+      </div>
+      <div class="review-author">
+        <div class="avatar">АС</div>
+        <div class="author-info">
+          <div class="name">Алексей С.</div>
+          <div class="meta">Владелец глэмпинга</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ОТЗЫВ 2 -->
+    <div class="review-card">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <span class="niche-tag">Фитнес-клуб</span>
+      <div class="review-text">
+        «Георгий красавчик, <strong>на 100% погрузился в работу</strong> с нашей компанией. Работали 3 месяца. Помимо таргета — помог с обработкой заявок из чата, предлагал методы по увеличению конверсии в продажу. <strong>ROI 1415% при бюджете 30 000 ₽.</strong> Работой доволен.»
+      </div>
+      <div class="review-author">
+        <div class="avatar">МК</div>
+        <div class="author-info">
+          <div class="name">Макс Клепцов</div>
+          <div class="meta">Фитнес-клуб · ВКонтакте</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ОТЗЫВ 3 -->
+    <div class="review-card">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <span class="niche-tag">Чирлидинг</span>
+      <div class="review-text">
+        «После работы Георгия начался <strong>неожиданный бум заявок</strong>, даже от аудитории, которая не предполагалась. Результат — <strong>более 30 новых клиентов</strong>, ~20 стали постоянными. Георгий даже лично посетил мероприятие и дал советы по его ведению. Спасибо!»
+      </div>
+      <div class="review-author">
+        <div class="avatar">ЖХ</div>
+        <div class="author-info">
+          <div class="name">Женя Хаматшин</div>
+          <div class="meta">Клуб чирлидинга</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ОТЗЫВ 4 -->
+    <div class="review-card">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <span class="niche-tag">Онлайн-обучение</span>
+      <div class="review-text">
+        «Общался с огромным количеством таргетологов — Георгий <strong>лучше 95%</strong>. Главное, что получил — <strong>видение дальнейшего развития проекта</strong>: какой продукт, ценник, структура, воронка. После консультации я знаю куда двигаться!»
+      </div>
+      <div class="review-author">
+        <div class="avatar">МЮ</div>
+        <div class="author-info">
+          <div class="name">Максим Юрин</div>
+          <div class="meta">Онлайн-скорочтение</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ОТЗЫВ 5 -->
+    <div class="review-card">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <span class="niche-tag">Услуги</span>
+      <div class="review-text">
+        «После первой встречи Георгий <strong>ясно сформулировал план работы по пунктам</strong> — мне оставалось только идти и делать. Слышал все мои пожелания. <strong>Группа выросла в два раза за три месяца!</strong> Теперь понимаю, чем работа со специалистом отличается от самостоятельных попыток.»
+      </div>
+      <div class="review-author">
+        <div class="avatar">АВ</div>
+        <div class="author-info">
+          <div class="name">Алёна Волошанюк</div>
+          <div class="meta">ВКонтакте · 2017</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ОТЗЫВ 6 -->
+    <div class="review-card">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <span class="niche-tag">Проект с нуля</span>
+      <div class="review-text">
+        «Работаю с Георгием <strong>более полугода</strong>. Начинали с нуля — до этого сливала весь бюджет. С Георгием удалось наладить <strong>постоянный приток клиентов</strong>, количество увеличивается с каждым сезоном. Всем рекомендую!»
+      </div>
+      <div class="review-author">
+        <div class="avatar">ДК</div>
+        <div class="author-info">
+          <div class="name">Дарья Козмулич</div>
+          <div class="meta">ВКонтакте · 2020</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ОТЗЫВ 7 -->
+    <div class="review-card">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <span class="niche-tag">Таргет ВК</span>
+      <div class="review-text">
+        «<strong>Просто в восторге</strong> от консультации. За 2,5 часа разобрали все инструменты и запустили объявления прямо в рекламном кабинете. Георгий потрясающе разжёвывает информацию — преподносит так, что нельзя не понять. <strong>По таргету рекомендую однозначно.</strong>»
+      </div>
+      <div class="review-author">
+        <div class="avatar">IS</div>
+        <div class="author-info">
+          <div class="name">Ivan Superman</div>
+          <div class="meta">Юридические услуги · 2017</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ОТЗЫВ 8 -->
+    <div class="review-card">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <span class="niche-tag">Instagram</span>
+      <div class="review-text">
+        «Гоша грамотно помог проанализировать страницу и дал <strong>конкретные рекомендации — что улучшить здесь и сейчас</strong>. По итогу встречи — понимание конкретных шагов и уверенность, что это вполне реально. Спасибо, Гоша!»
+      </div>
+      <div class="review-author">
+        <div class="avatar">АХ</div>
+        <div class="author-info">
+          <div class="name">Алия Хажкенова</div>
+          <div class="meta">Преподаватель английского · 2020</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- ВИДЕО-ОТЗЫВЫ -->
+    <div class="video-block">
+      <div class="video-block-title">Видео-отзывы клиентов</div>
+      <div class="video-grid">
+        <div class="video-item">
+          <iframe src="https://vk.com/video_ext.php?oid=-146321488&id=456239038&hash=0b14ac08296c3b44" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="video-item">
+          <iframe src="https://vk.com/video_ext.php?oid=-146321488&id=456239039&hash=a8671b9d2df306e8" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="video-item">
+          <iframe src="https://vk.com/video_ext.php?oid=-146321488&id=456239047&hash=f1916a509a93abf5" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="video-item">
+          <iframe src="https://vk.com/video_ext.php?oid=-146321488&id=456239046&hash=779d394aa60582d3" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+      </div>
+    </div>
+
+  <div class="reviews-cta">
+    <p>Хотите такой же результат?</p>
+    <a href="https://t.me/george_adam" target="_blank" class="btn-outline">
+      Записаться на разбор
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+  </div>
+</section>
+
+<section id="contact" style="padding: 48px 20px;">
+<p class="section-label">Связаться</p>
+  <h2>Обсудим вашу задачу</h2>
+  <p class="section-sub">Отвечаю в Telegram в течение часа. Первая консультация — бесплатно.</p>
+
+  <div class="contact-wrap">
+
+    <!-- КАНАЛЫ СВЯЗИ -->
+    <div class="channels">
+
+      <a href="https://t.me/george_adam" target="_blank" class="channel-card">
+        <div class="channel-icon icon-tg">✈️</div>
+        <div class="channel-info">
+          <div class="label">Telegram</div>
+          <div class="value">@george_adam</div>
+          <div class="hint">Самый быстрый способ</div>
+        </div>
+        <svg class="channel-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+
+      <a href="tel:+79683001678" class="channel-card">
+        <div class="channel-icon icon-phone">📞</div>
+        <div class="channel-info">
+          <div class="label">Телефон</div>
+          <div class="value">+7 968 300 16 78</div>
+          <div class="hint">Звонки и WhatsApp</div>
+        </div>
+        <svg class="channel-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+
+      <a href="mailto:georgegrg@yandex.ru" class="channel-card">
+        <div class="channel-icon icon-email">✉️</div>
+        <div class="channel-info">
+          <div class="label">Email</div>
+          <div class="value">georgegrg@yandex.ru</div>
+          <div class="hint">Для официальных запросов</div>
+        </div>
+        <svg class="channel-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+
+      <!-- Добавьте ВК или другой канал при необходимости -->
+
+    </div>
+
+    <!-- ФОРМА -->
+    <div class="form-card">
+      <h3>Оставить заявку</h3>
+      <p>Опишите задачу — отвечу с конкретным предложением, без шаблонных ответов.</p>
+
+      <form id="contactForm" onsubmit="submitForm(event)">
+        <div class="form-group">
+          <label>Имя</label>
+          <input type="text" placeholder="Как вас зовут?" required>
+        </div>
+        <div class="form-group">
+          <label>Telegram или телефон</label>
+          <input type="text" placeholder="@username или +7..." required>
+        </div>
+        <div class="form-group">
+          <label>Ниша / сфера</label>
+          <select>
+            <option value="" disabled selected>Выберите нишу</option>
+            <option>Глэмпинг / загородный отдых</option>
+            <option>Фитнес и спорт</option>
+            <option>Детские клубы / секции</option>
+            <option>E-commerce / маркетплейсы</option>
+            <option>Онлайн-образование</option>
+            <option>Услуги для бизнеса (B2B)</option>
+            <option>Другое</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Задача (необязательно)</label>
+          <textarea placeholder="Что хотите получить в результате?"></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          Отправить заявку
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+        <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+      </form>
+
+      <div class="form-success" id="formSuccess">
+        <div class="icon">✅</div>
+        <h4>Заявка отправлена!</h4>
+        <p>Отвечу в течение часа в Telegram.<br>Если срочно — пишите напрямую: <a href="https://t.me/george_adam" style="color:var(--accent)">@george_adam</a></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── PRE-FOOTER CTA ── -->
+  <section class="prefooter">
+    <p class="prefooter-label">Готовы начать?</p>
+    <h2>Хватит тестировать гипотезы <span>вслепую</span></h2>
+    <p>Разберём вашу воронку, найдём узкие места и выстроим систему, которая даёт заявки стабильно.</p>
+    <div class="prefooter-btns">
+      <a href="https://t.me/george_adam" target="_blank" class="btn-primary">
+        Написать в Telegram
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+      <a href="tel:+79683001678" class="btn-ghost">
+        📞 +7 968 300 16 78
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+
+      <div class="footer-grid">
+
+        <!-- БРЕНД -->
+        <div class="footer-brand">
+          <div class="logo">Георгий <span>Адамович</span></div>
+          <p class="tagline">Маркетолог-стратег. Строю системы лидогенерации и маркетинговые отделы для малого и среднего бизнеса.</p>
+          <div class="social-links">
+            <a href="https://t.me/george_adam" target="_blank" class="social-link" title="Telegram">✈️</a>
+            <a href="https://vk.com/target_v_vk" target="_blank" class="social-link" title="ВКонтакте">🔵</a>
+            <a href="mailto:georgegrg@yandex.ru" class="social-link" title="Email">✉️</a>
+          </div>
+        </div>
+
+        <!-- УСЛУГИ -->
+        <div class="footer-col">
+          <h4>Услуги</h4>
+          <ul>
+            <li><a href="#">Таргет ВКонтакте</a></li>
+            <li><a href="#">Стратегия лидогенерации</a></li>
+            <li><a href="#">Маркетинговый отдел</a></li>
+            <li><a href="#">Аудит рекламы</a></li>
+            <li><a href="#">Директор по маркетингу</a></li>
+          </ul>
+        </div>
+
+        <!-- О САЙТЕ -->
+        <div class="footer-col">
+          <h4>О специалисте</h4>
+          <ul>
+            <li><a href="#">Кейсы</a></li>
+            <li><a href="#">Как я работаю</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Обо мне</a></li>
+          </ul>
+        </div>
+
+        <!-- КОНТАКТЫ -->
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="https://t.me/george_adam" target="_blank">Telegram</a></li>
+            <li><a href="tel:+79683001678">+7 968 300 16 78</a></li>
+            <li><a href="mailto:georgegrg@yandex.ru">georgegrg@yandex.ru</a></li>
+            <li><a href="#">Санкт-Петербург</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="copy">© 2025 Адамович Георгий Станиславович. Все права защищены.</p>
+        <div class="legal-links">
+          <a href="privacy.html">Политика конфиденциальности</a>
+          <a href="oferta.html">Оферта</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+<script>
+
+  function openService(event, id) {
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    event.currentTarget.classList.add('active');
+  }
+
+
+
+// ── Toggle раскрытия кейсов ──────────────────────────────
+function toggleCases() {
+  const section = document.getElementById('miniSection');
+  const chevron = document.getElementById('chevron');
+  const btn = document.getElementById('toggleBtn');
+  const isOpen = section.classList.contains('open');
+  if (isOpen) {
+    section.classList.remove('open');
+    chevron.style.transform = 'rotate(0deg)';
+    btn.childNodes[0].textContent = 'Показать больше кейсов ';
+  } else {
+    section.classList.add('open');
+    chevron.style.transform = 'rotate(180deg)';
+    btn.childNodes[0].textContent = 'Скрыть кейсы ';
+  }
+}
+
+// ── Данные кейсов для модалок ────────────────────────────
+const cases = {
+  marathon: {
+    tag: 'Онлайн-марафон · ВКонтакте · 2 потока',
+    title: 'Марафон по сыроедению — 1 870 лидов, ~498 000 ₽ выручки',
+    desc: 'Таргет ВКонтакте для онлайн-марафона по сыроедению. Провели два потока — каждый раз улучшали связки, снижали стоимость лида и масштабировали бюджет.',
+    stats: [{num:'610',lbl:'лидов — Поток 1'},{num:'1 260',lbl:'лидов — Поток 2'},{num:'49 ₽',lbl:'средняя стоимость лида'},{num:'498 K ₽',lbl:'суммарная выручка'}],
+    steps: ['Поток 1: бюджет 30 250 ₽ → 610 лидов (50 ₽/лид) → выручка 231 623 ₽','Поток 2: бюджет 61 715 ₽ → 1 260 лидов (49 ₽/лид) → выручка 266 194 ₽','Сегментация по интересам: ЗОЖ, вегетарианство, похудение','A/Б тест форматов: промопосты vs записи с кнопкой','Авто-воронка прогрева в личных сообщениях']
+  },
+  marathon2: {
+    tag: 'Онлайн-марафон · ВКонтакте · Масштаб',
+    title: 'Марафон сыроедение (масштаб) — 11 110 обращений по 47 ₽',
+    desc: 'Масштабная кампания для того же марафона по сыроедению. ГЕО — весь мир. Большой бюджет, системная стратегия приёма трафика, многократно больший охват.',
+    stats: [{num:'525 134 ₽',lbl:'рекламный бюджет'},{num:'11 110',lbl:'обращений'},{num:'47 ₽',lbl:'стоимость лида'},{num:'Весь мир',lbl:'гео охват'}],
+    steps: ['Настройка рекламы ВКонтакте на весь мир (русскоязычная аудитория)','Проработка стратегии по приёму трафика','Масштабирование бюджета с удержанием CPL ниже 50 ₽','Системная обработка потока из 11 000+ обращений']
+  },
+  putstroy1: {
+    tag: 'Фитнес-проект · г. Новосибирск',
+    title: '«Путь к стройности» — 852 лида по 57 ₽, 28 оплат',
+    desc: 'Фитнес-проект для женщин в Новосибирске. Комплексная работа: реклама в двух соцсетях + пиар личного бренда тренера + воронка продаж. 28 девушек оплатили участие.',
+    stats: [{num:'48 745 ₽',lbl:'рекламный бюджет'},{num:'852',lbl:'лидов'},{num:'57.2 ₽',lbl:'стоимость лида'},{num:'28',lbl:'оплатили участие'}],
+    steps: ['Настройка таргета ВКонтакте и Instagram','Пиар личного бренда тренера (+воронка продаж)','Сегментация: женщины 20–45, интерес «похудение», «фитнес»','Воронка: лид → прогрев → продажа участия']
+  },
+  putstroy2: {
+    tag: 'Фитнес-проект · г. Новосибирск · Ч2',
+    title: '«Путь к стройности» Ч2 — 800 лидов, 33 новые участницы',
+    desc: 'Вторая итерация фитнес-проекта. Добавили посадочные страницы, продающие скрипты для обработки заявок и контент-план. Результат — 33 новые участницы при бюджете 40 000 ₽.',
+    stats: [{num:'40 000 ₽',lbl:'рекламный бюджет'},{num:'800',lbl:'лидов'},{num:'33',lbl:'новых участницы'},{num:'ВК + Inst',lbl:'каналы'}],
+    steps: ['Настройка рекламы ВКонтакте и Instagram','Оформление посадочных страниц под трафик','Подготовка продающих скриптов для менеджеров','Разработка контент-плана для прогрева аудитории']
+  },
+  beautyfit: {
+    tag: 'Фитнес · г. Тюмень',
+    title: 'BeautyFIT Тюмень — 485 лидов по 40 ₽',
+    desc: 'Фитнес-проект BeautyFIT в Тюмени. Комплексная работа: таргет + оформление сообщества + продающие скрипты. Стоимость лида ниже рыночной.',
+    stats: [{num:'19 531 ₽',lbl:'рекламный бюджет'},{num:'485',lbl:'лидов'},{num:'40.27 ₽',lbl:'стоимость лида'},{num:'ВКонтакте',lbl:'основной канал'}],
+    steps: ['Настройка рекламы ВКонтакте','Оформление сообщества под приём трафика','Подготовка продающих скриптов для обработки заявок','Сегментация: женщины 18–40, интерес «фитнес», «похудение»','Оптимизация по CPL — достигли 40 ₽ при рыночных 100–200 ₽']
+  },
+  beloesun: {
+    tag: 'Фитнес-клуб · г. Уральск',
+    title: '«Белое Солнце» — 2 428 лидов по 26 ₽',
+    desc: 'Крупный фитнес-комплекс (фитнес + бассейн + баня) в г. Уральск. Масштабная кампания ВКонтакте с геосегментацией. Стоимость лида — 26 ₽, что исключительно низко для нишевого объекта.',
+    stats: [{num:'64 787 ₽',lbl:'рекламный бюджет'},{num:'2 428',lbl:'лидов'},{num:'26 ₽',lbl:'стоимость лида'},{num:'ВКонтакте',lbl:'канал'}],
+    steps: ['Геотаргетинг: жители в радиусе клуба','Сегментация по интересам: бассейн, фитнес, баня, ЗОЖ','A/Б тест объявлений: акции, преимущества, отзывы','Ретаргетинг на тех, кто кликнул, но не оставил заявку','Масштабирование при удержании CPL ниже 30 ₽']
+  },
+  crossfit: {
+    tag: 'Кроссфит · г. Королёв',
+    title: 'Crossfit Start Fitness — 76 лидов по 197 ₽',
+    desc: 'Нишевый кроссфит-клуб в Королёве. Аудитория — осознанные спортсмены с высоким LTV. Стоимость лида выше среднего, но оправдана длительностью удержания клиента.',
+    stats: [{num:'15 000 ₽',lbl:'рекламный бюджет'},{num:'76',lbl:'лидов'},{num:'197 ₽',lbl:'стоимость лида'},{num:'↑ LTV',lbl:'высокий срок жизни клиента'}],
+    steps: ['Анализ ЦА: кроссфит-энтузиасты, функциональные тренировки','Таргет ВКонтакте: аудитории конкурентов + категории интересов','Форматы: видео тренировок, результаты участников','Ретаргетинг по взаимодействиям с сообществом','Обоснование CPL: клиент платит 3–12 месяцев']
+  },
+  maximum: {
+    tag: 'Фитнес · г. Орёл',
+    title: 'Фитнес-клуб «Maximum» — 318 лидов, 50 абонементов',
+    desc: 'Таргет ВКонтакте для фитнес-клуба «Maximum» в Орле. При бюджете 20 000 ₽ получили 318 лидов по 63 ₽ и продали 50 абонементов.',
+    stats: [{num:'20 000 ₽',lbl:'рекламный бюджет'},{num:'318',lbl:'лидов'},{num:'63 ₽',lbl:'стоимость лида'},{num:'50',lbl:'продано абонементов'}],
+    steps: ['Настройка рекламы ВКонтакте','Сегментация по гео + интересам «фитнес», «спорт»','Воронка: объявление → заявка → менеджер → абонемент','Конверсия 15.7% из лида в покупку абонемента','Оптимизация по CPL и стоимости абонемента']
+  },
+  cheergrodno: {
+    tag: 'Чирлидинг взрослые · г. Гродно',
+    title: 'Чирлидинг-клуб — 46 анкет, 30–35 ₽/заявка',
+    desc: 'Набор состава чирлидинг-клуба через ВКонтакте и Instagram. Особенность — лично обрабатывал заявки, выстраивая личный контакт с каждым кандидатом. Это подняло конверсию из заявки в приход.',
+    stats: [{num:'6 900 ₽',lbl:'бюджет ВКонтакте'},{num:'46',lbl:'заполненных анкет'},{num:'38',lbl:'пришли на тренировку'},{num:'30–35 ₽',lbl:'стоимость заявки'}],
+    steps: ['ВКонтакте (6 900 ₽) + Instagram (~4 300 ₽) параллельно','Мастер-класс как точка входа в клуб','Аудитории: мамы, участники детских садов, развивающих центров','Лично взял обработку заявок — личный контакт повысил конверсию','Старший состав: 37 написали → 16 пришли → 10–12 занимаются постоянно']
+  },
+  cheerkids: {
+    tag: 'Чирлидинг · г. Гродно · Sky Hamsters',
+    title: 'Sky Hamsters — 120+ на мастер-класс, 38 абонементов',
+    desc: 'Детский чирлидинг-клуб Sky Hamsters в Гродно. Реклама была направлена на привлечение на мастер-класс. По итогу — 38 купленных абонементов.',
+    stats: [{num:'11 200 ₽',lbl:'рекламный бюджет'},{num:'120+',lbl:'посетили мероприятие'},{num:'38',lbl:'купили абонемент'},{num:'ВКонтакте',lbl:'канал'}],
+    steps: ['Настройка рекламы ВКонтакте на мастер-класс','Подготовка скриптов для переписки с потенциальными клиентами','ЦА: родители детей 5–14 лет, мамы с интересом «детский спорт»','Оффер: мастер-класс как бесплатная точка входа','По итогу мастер-класса — продажа абонементов участникам']
+  },
+  skyham2: {
+    tag: 'Чирлидинг · г. Гродно · Кейс 2',
+    title: 'Sky Hamsters — 37 пришли, 10 продолжили на платной основе',
+    desc: 'Более ранняя кампания для Sky Hamsters с минимальным бюджетом. Фокус на проработку воронки продаж и оформление группы. 10 человек продолжили обучение за 1 000 ₽/мес на 6 месяцев.',
+    stats: [{num:'1 800 ₽',lbl:'рекламный бюджет'},{num:'37',lbl:'пришли на мастер-класс'},{num:'10',lbl:'продолжили обучение'},{num:'7 000 ₽',lbl:'оплата за настройку'}],
+    steps: ['Таргет ВКонтакте с минимальным бюджетом 1 800 ₽','Проработка воронки продаж для детской секции','Оформление группы ВКонтакте','ЦА: родители и дети 14+, интерес к мастер-классу по чирлидингу','10 из 37 (27%) продолжили обучение — 1 000 ₽/мес × 6 мес']
+  },
+  kursk: {
+    tag: 'Фитнес · г. Курск · Санта-Моника',
+    title: '«Санта-Моника» — 2 463 лида к Новому году, 21 ₽/лид',
+    desc: 'Фитнес-клуб нового поколения в Курске, ещё в процессе строительства. Рекламу запустили с сентября для сбора предзаказов со скидкой 50%. Senler авто-ответ — охват 90%+ обращений.',
+    stats: [{num:'52 227 ₽',lbl:'рекламный бюджет'},{num:'2 463',lbl:'обращений'},{num:'21 ₽',lbl:'стоимость обращения'},{num:'90%+',lbl:'охват авто-ответом'}],
+    steps: ['Трафик на личные сообщения + Senler авто-ответ','Предзаказ абонементов со скидкой 50%','Реклама с сентября — прогрев до открытия в декабре','Визуализация через фото аналогичного клуба','Масштабирование при стабильной стоимости лида']
+  },
+  safari: {
+    tag: 'Фитнес · Safari Sport · ROMI ×15',
+    title: 'Safari Sport — 455 000 ₽ выручки при бюджете 30 000 ₽',
+    desc: 'Психологический разбор аудитории и пошаговая воронка вместо прямых продаж абонементов. 5-шаговая воронка от рекламы до первой тренировки.',
+    stats: [{num:'30 000 ₽',lbl:'бюджет (2 мес)'},{num:'455 000 ₽',lbl:'выручка'},{num:'100 K+',lbl:'охват ЦА'},{num:'×15',lbl:'ROMI'}],
+    steps: ['Шаг 1: реклама — узнаёт себя, лёгкое действие','Шаг 2: захват — заявка или подписка','Шаг 3: прогрев — тест или вовлекающий контент','Шаг 4: мотивация — образ успешного будущего','Шаг 5: пробная тренировка — первое касание с продуктом','Охват ~100 000 ЦА по 5 раз каждого']
+  },
+  zhemchug: {
+    tag: 'Детская гимнастика · Новосибирск',
+    title: '«Жемчужина» — 17 абонементов, 536 ₽/клиент за 21 день',
+    desc: 'Спортцентр гимнастики для детей от 3 лет, Новосибирск. Реклама на пробное занятие. Детально проработаны аудитории мам по детским садам и конкурентам.',
+    stats: [{num:'9 119 ₽',lbl:'бюджет (21 день)'},{num:'67',lbl:'записей'},{num:'136 ₽',lbl:'стоимость заявки'},{num:'536 ₽',lbl:'стоимость клиента'}],
+    steps: ['Гео по адресам залов + мамы по интересам','Конкуренты: детские школы гимнастики, хореографии, танца','Группы детских садов рядом — самая эффективная аудитория','Анкета «Хамелеонус»: 4 вопроса','Воронка: 67 записей → 28 пришли (42%) → 17 купили (25%)']
+  },
+  barbara: {
+    tag: 'Фитнес · г. Ижевск · 6 месяцев',
+    title: '«Барбара» — 200 клиентов, 550 000 ₽ продаж',
+    desc: 'Женская фитнес-студия в Ижевске. 6 месяцев системной работы: 1 412 обращений, 200 клиентов, средний чек 2 750 ₽.',
+    stats: [{num:'1 412',lbl:'обращений за 6 мес'},{num:'200',lbl:'клиентов (конв. 14%)'},{num:'464 ₽',lbl:'стоимость клиента'},{num:'550 K ₽',lbl:'продажи'}],
+    steps: ['Стратегия на 6 месяцев: каналы, бюджеты, воронка','Таргет ВКонтакте: сегментация по интересам, гео, возрасту','Средняя стоимость обращения — 65 ₽','Конверсия из обращения в оплату — 14%','Ретаргетинг и прогрев тех, кто не купил с первого раза']
+  },
+  jimtime: {
+    tag: 'Детский спортклуб · г. Абакан',
+    title: '«Джим-Тайм» — 104 обращения по 50 ₽',
+    desc: 'Детский спортивный клуб «Джим-Тайм» в Абакане. Таргет ВКонтакте. Целевая аудитория — мамы с детьми. Стоимость обращения 50.74 ₽ при бюджете около 5 000 ₽.',
+    stats: [{num:'5 277 ₽',lbl:'рекламный бюджет'},{num:'104',lbl:'обращений'},{num:'50.74 ₽',lbl:'стоимость лида'},{num:'ВКонтакте',lbl:'канал'}],
+    steps: ['Настройка рекламы ВКонтакте','ЦА: мамы с детьми, интерес «детский спорт», «развитие детей»','Геотаргетинг по г. Абакан','Форматы: промопосты с акцентом на безопасность и результаты']
+  },
+  demarche: {
+    tag: 'Студия танца · г. Санкт-Петербург',
+    title: '«De-Marche» — 64 анкеты по 92 ₽',
+    desc: 'Студия танца De-Marche в Санкт-Петербурге. Таргет ВКонтакте + подготовка посадочной страницы под трафик. 64 заполненные анкеты.',
+    stats: [{num:'5 905 ₽',lbl:'рекламный бюджет'},{num:'64',lbl:'анкеты заполнили'},{num:'92 ₽',lbl:'стоимость лида'},{num:'ВКонтакте',lbl:'канал'}],
+    steps: ['Настройка рекламы ВКонтакте','Подготовка посадочной страницы под приём трафика','ЦА: девушки и женщины 14–40, интерес «танцы», «хореография»','Форматы: видео с выступлениями, анонсы мастер-классов','Анкета для сбора контактов потенциальных учеников']
+  },
+  manicure: {
+    tag: 'Красота · г. Королёв',
+    title: 'Студия маникюра — 85 обращений по 59 ₽',
+    desc: 'Студия маникюра в Королёве. Таргет ВКонтакте + оформление группы для приёма трафика. 85 обращений при бюджете 5 000 ₽.',
+    stats: [{num:'5 000 ₽',lbl:'рекламный бюджет'},{num:'85',lbl:'обращений'},{num:'59 ₽',lbl:'стоимость обращения'},{num:'ВКонтакте',lbl:'канал'}],
+    steps: ['Настройка рекламы ВКонтакте','Подготовка группы ВКонтакте под приём трафика','ЦА: женщины 20–45 в радиусе от студии','Оффер: акция на первое посещение','Форматы: фото работ + отзывы клиентов']
+  },
+  'neposeda': {
+    tag: 'Магазин игрушек · г. Гродно',
+    title: '«Непоседа» — 1 604 перехода по 3 ₽, 1 100 подписчиков',
+    desc: 'Магазин игрушек «Непоседа» в Гродно. Таргет ВКонтакте + стратегия по приёму трафика. 1 604 перехода по 3 ₽ + 1 100 новых подписчиков + 150+ органических обращений.',
+    stats: [{num:'4 955 ₽',lbl:'рекламный бюджет'},{num:'1 604',lbl:'переходов (3 ₽/клик)'},{num:'1 100',lbl:'новых подписчиков'},{num:'150+',lbl:'органических обращений'}],
+    steps: ['Настройка рекламы ВКонтакте','Проработка стратегии по приёму трафика','ЦА: родители детей до 10 лет, г. Гродно','Форматы: акции, подборки товаров, конкурсы','Рост органики за счёт активного сообщества']
+  },
+  sofa: {
+    tag: 'Мебель · г. Чебоксары',
+    title: 'Салон мягкой мебели — 82 000 ₽ продаж при бюджете 6 500 ₽',
+    desc: 'Магазин мягкой мебели «Sofa» в Чебоксарах. ВКонтакте: 110 входящих заявок (59 ₽/лид), 1 079 новых подписчиков, 4 оплаты на 82 000 ₽.',
+    stats: [{num:'6 500 ₽',lbl:'рекламный бюджет'},{num:'110',lbl:'входящих заявок'},{num:'1 079',lbl:'новых подписчиков'},{num:'82 000 ₽',lbl:'продаж (4 покупки)'}],
+    steps: ['Анализ ЦА для рекламы ВКонтакте','Создание продающих объявлений','Переоформление дизайна паблика','ЦА: семьи 25–50, интерес «ремонт», «интерьер», «мебель»','4 сделки при среднем чеке ~20 500 ₽']
+  },
+  rogaolenya: {
+    tag: 'E-commerce · Лакомства для собак · Россия',
+    title: '«Рога Оленя» — ROI 400–450%, 19 708 переходов',
+    desc: 'Интернет-магазин лакомств для собак «Рога Оленя» с охватом по всей России. Масштабная кампания ВКонтакте с огромным охватом и высоким ROMI.',
+    stats: [{num:'94 143 ₽',lbl:'рекламный бюджет'},{num:'2 101 610',lbl:'показов'},{num:'19 708',lbl:'переходов (4.78 ₽/клик)'},{num:'400–450%',lbl:'ROI'}],
+    steps: ['Настройка рекламы ВКонтакте по всей России','Проработка стратегии приёма трафика','ЦА: владельцы собак, интерес «собаки», «зоотовары»','Масштабирование: 2+ млн показов при низком CPL','4 662 новых подписчика в сообщество']
+  },
+  hrumstik: {
+    tag: 'E-commerce · Лакомства для собак',
+    title: '«Хрум-Стик» — 45 клиентов, 56 000 ₽ продаж',
+    desc: 'Тест продаж лакомств для собак через ВКонтакте. Задача: держать стоимость заявки ниже 250 ₽. Результат: 45 новых клиентов по 185 ₽, продажи на 56 000 ₽ при бюджете 8 250 ₽.',
+    stats: [{num:'8 250 ₽',lbl:'рекламный бюджет'},{num:'45',lbl:'новых клиентов'},{num:'185 ₽',lbl:'стоимость клиента'},{num:'56 000 ₽',lbl:'продаж'}],
+    steps: ['Анализ и поиск ЦА для рекламы ВКонтакте','Анализ групп конкурентов','Создание продающих объявлений','ЦА: владельцы собак, зоолюбители','ROMI: 56 000 / 8 250 = 579%']
+  },
+  vebinar: {
+    tag: 'Вебинар · Эзотерика · ВКонтакте',
+    title: '1 265 заявок на вебинар по 24 ₽',
+    desc: 'Привлечение ЦА на бесплатный вебинар по улучшению качества жизни. Заказчики: сообщества «Новая жизнь» и «Квантовый скачок». Задача — до 70 ₽/лид. Результат: 24 ₽.',
+    stats: [{num:'30 000 ₽',lbl:'рекламный бюджет'},{num:'1 265',lbl:'входящих заявок'},{num:'24 ₽',lbl:'стоимость заявки'},{num:'420',lbl:'новых пользователей/раз'}],
+    steps: ['Таргетированная реклама ВКонтакте','Анализ ЦА: интерес к саморазвитию, эзотерике, психологии','Создание продающих объявлений для вебинара','Вебинар проводился 3 раза в месяц','Стабильный поток: ~420 новых пользователей с каждого запуска']
+  }
+};
+
+// ── Модальное окно ───────────────────────────────────────
+function openModal(id) {
+  const c = cases[id];
+  if (!c) return;
+  document.getElementById('mTag').textContent = c.tag;
+  document.getElementById('mTitle').textContent = c.title;
+  document.getElementById('mDesc').textContent = c.desc;
+  document.getElementById('mStats').innerHTML = c.stats.map(s =>
+    `<div class="modal-stat"><div class="num">${s.num}</div><div class="lbl">${s.lbl}</div></div>`
+  ).join('');
+  document.getElementById('mSteps').innerHTML = c.steps.map(s =>
+    `<li>${s}</li>`
+  ).join('');
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeModalOnBg(e) {
+  if (e.target === document.getElementById('modalOverlay')) closeModal();
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+
+
+    function submitForm(e) {
+      e.preventDefault();
+      document.getElementById('contactForm').style.display = 'none';
+      document.getElementById('formSuccess').style.display = 'block';
+    }
+  
+</script>
+
+</body>
+</html>
